@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --highlight: #e4f222;
+  --mud: #a8a893;
+}
+
+::selection {
+  background: var(--highlight);
+}
+
+section {
+  background-color: var(--mud);
+  border-top: 1px solid black;
+}
