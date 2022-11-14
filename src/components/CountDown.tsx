@@ -18,8 +18,8 @@ function CountDown() {
   });
 
   return (
-    <span>
+    <section className='p-8'>
       {count}
-    </span>
+    </section>
   );
 } export default CountDown;

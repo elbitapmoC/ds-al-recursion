@@ -1,5 +1,6 @@
 import Head from "next/head";
 import CountDown from "../components/CountDown";
+import HashMap from "../components/HashMap";
 import Header from "../components/Header";
 
 const Home = () => {
@@ -14,9 +15,8 @@ const Home = () => {
       <Header />
 
       <main className="text-center min-h-screen">
-        <section className="p-8">
-          <CountDown />
-        </section>
+        <CountDown />
+        <HashMap />
       </main>
     </>
   );
